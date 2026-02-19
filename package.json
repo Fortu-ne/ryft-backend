@@ -1,0 +1,37 @@
+{
+  "name": "ryft-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.mjs",
+    "start:dev": "nodemon ./src/server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fortu-ne/ryft-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fortu-ne/ryft-backend/issues"
+  },
+  "homepage": "https://github.com/Fortu-ne/ryft-backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.1",
+    "prisma": "^7.4.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "type": "module"
+}
